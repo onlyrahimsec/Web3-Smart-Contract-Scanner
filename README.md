@@ -47,3 +47,25 @@ Initialize git and clone the project directory to your local workstation:
 ```bash
 git clone [https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git](https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git)
 cd Web3-Smart-Contract-Scanner
+
+
+2. Dependency Resolution
+Install the necessary graphical interface libraries and verify the environment:
+
+Bash
+pip install --upgrade customtkinter
+3. Container Initialization
+Pull the latest security toolbox image to ensure all detection patterns are up to date:
+
+Bash
+docker pull trailofbits/eth-security-toolbox
+4. Application Launch
+Execute the orchestration script to initiate the GUI:
+
+Bash
+python gui.py
+License
+This project is distributed under the MIT License. It is intended for educational and ethical security research purposes only.
+
+Contact and Contributions
+Developed by Md Rahim Rahman. Contributions to improve detection logic or the user interface are welcome through pull requests and issues.

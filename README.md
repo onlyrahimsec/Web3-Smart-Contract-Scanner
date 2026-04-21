@@ -46,3 +46,9 @@ Initialize git and clone the project directory to your local workstation:
 ```bash
 git clone [https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git](https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git)
 cd Web3-Smart-Contract-Scanner
+
+
+### 2. Dependency Resolution
+Install the necessary graphical interface libraries and verify the environment:
+```bash
+pip install --upgrade customtkinter

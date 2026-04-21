@@ -1,13 +1,19 @@
-# Web3 Smart Contract Vulnerability Scanner
-A Python-based security tool that detects vulnerabilities like Re-entrancy, Integer Overflow, and Access Control in Solidity smart contracts using Slither and Docker.
+# 🛡️ Web3 Smart Contract Vulnerability Scanner
 
-## Features
-- Modern GUI using CustomTkinter.
-- Static analysis for 100+ vulnerability detectors.
-- Automated Docker-based environment.
+A professional, Python-based automated security tool designed to detect critical vulnerabilities in Solidity smart contracts. This tool integrates the power of **Slither** via Docker to provide a seamless auditing experience through a modern GUI.
 
-## How to Run
-1. Install Docker and Python.
-2. Clone this repo.
-3. Run `pip install customtkinter`.
-4. Execute `python gui.py`.
+## ✨ Key Features
+- **Automated Detection:** Identifies 100+ vulnerabilities including Re-entrancy, Integer Overflow, and Access Control issues.
+- **User-Friendly GUI:** Built with `CustomTkinter` for a modern, dark-themed desktop interface.
+- **Docker-Powered:** No complex local setup required; security engines run inside isolated Docker containers.
+- **Real-time Analysis:** Provides instant security reports and detector documentation links.
+
+## 🛠️ Prerequisites
+Before running the scanner, ensure you have the following installed:
+- [Python 3.10+](https://www.python.org/downloads/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+## 🚀 Installation & Usage
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git](https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git)

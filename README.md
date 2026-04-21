@@ -1,19 +1,6 @@
-# 🛡️ Web3 Smart Contract Vulnerability Scanner
-
-A professional, Python-based automated security tool designed to detect critical vulnerabilities in Solidity smart contracts. This tool integrates the power of **Slither** via Docker to provide a seamless auditing experience through a modern GUI.
-
-## ✨ Key Features
-- **Automated Detection:** Identifies 100+ vulnerabilities including Re-entrancy, Integer Overflow, and Access Control issues.
-- **User-Friendly GUI:** Built with `CustomTkinter` for a modern, dark-themed desktop interface.
-- **Docker-Powered:** No complex local setup required; security engines run inside isolated Docker containers.
-- **Real-time Analysis:** Provides instant security reports and detector documentation links.
-
-## 🛠️ Prerequisites
-Before running the scanner, ensure you have the following installed:
-- [Python 3.10+](https://www.python.org/downloads/)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-
-## 🚀 Installation & Usage
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git](https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git)
+Web3 Smart Contract Vulnerability ScannerA high-performance automated security auditing tool designed for Ethereum smart contracts. This application leverages the Slither static analysis framework within isolated Docker containers to identify critical security flaws in Solidity source code. Developed with a focus on usability and precision, it provides security researchers and developers with an intuitive interface to conduct deep-dive audits of smart contracts before deployment.Technical ArchitectureThe scanner operates as a Python-based orchestration layer that communicates with specialized security engines. By utilizing Docker, the tool ensures a consistent execution environment, eliminating versioning conflicts between different Solidity compilers and the analysis tools.Key Security DetectorsThe scanner is configured to detect over 100 vulnerability patterns, with a primary focus on:Re-entrancy Vulnerabilities: Identifying unsafe external calls that allow state manipulation.Integer Overflow and Underflow: Highlighting arithmetic operations that could lead to unexpected behavior.Access Control Flaws: Detecting unprotected administrative functions and ownership issues.Low-Level Calls: Flagging the use of call, delegatecall, and send which may bypass safety checks.Uninitialized State Variables: Identifying variables that could lead to contract failure or exploitation.System RequirementsThe scanner requires a specific environment to ensure high-fidelity analysis and containerized execution of security engines.ComponentMinimum RequirementPurposePython3.10 or HigherCore Application LogicDocker Engine20.10.x +Isolated Analysis EnvironmentOSWindows 10/11 (WSL2), Linux, or macOSCross-platform CompatibilityMemory4GB RAMHandling Large Contract ASTsExternal ResourcesPython Runtime: Download Official BinariesDocker Engine: Get Docker DesktopSecurity Engine: Powered by Trail of Bits SlitherDeployment and InstallationFollow these steps to deploy the scanner in your local security research environment.1. Repository AcquisitionInitialize git and clone the project directory to your local workstation:Bashgit clone https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git
+cd Web3-Smart-Contract-Scanner
+2. Dependency ResolutionInstall the necessary graphical interface libraries and verify the environment:Bashpip install --upgrade customtkinter
+3. Container InitializationPull the latest security toolbox image to ensure all detection patterns are up to date:Bashdocker pull trailofbits/eth-security-toolbox
+4. Application LaunchExecute the orchestration script to initiate the GUI:Bashpython gui.py
+LicenseThis project is distributed under the MIT License. It is intended for educational and ethical security research purposes only.Contact and ContributionsDeveloped by Md Rahim Rahman. Contributions to improve detection logic or the user interface are welcome through pull requests and issues.

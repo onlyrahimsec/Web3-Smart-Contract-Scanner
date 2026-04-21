@@ -41,14 +41,16 @@ The scanner requires a specific environment to ensure high-fidelity analysis and
 
 Follow these steps to deploy the scanner in your local security research environment.
 
+Follow these steps to deploy the scanner in your local security research environment.
+
 ### 1. Repository Acquisition
 Initialize git and clone the project directory to your local workstation:
+
 ```bash
-git clone [https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git](https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git)
+git clone https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git
 cd Web3-Smart-Contract-Scanner
 
 
-### 2. Dependency Resolution
-Install the necessary graphical interface libraries and verify the environment:
-```bash
-pip install --upgrade customtkinter
+
+
+

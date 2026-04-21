@@ -30,11 +30,6 @@ The scanner requires a specific environment to ensure high-fidelity analysis and
 | **OS** | Windows 10/11 (WSL2), Linux, macOS | Cross-platform Compatibility |
 | **Memory** | 4GB RAM | Handling Large Contract ASTs |
 
-### External Resources
-* **Python Runtime:** [Download Official Binaries](https://www.python.org/downloads/)
-* **Docker Engine:** [Get Docker Desktop](https://www.docker.com/products/docker-desktop/)
-* **Security Engine:** Powered by [Trail of Bits Slither](https://github.com/crytic/slither)
-
 ---
 
 ## Deployment and Installation
@@ -49,23 +44,4 @@ git clone [https://github.com/onlyrahimsec/Web3-Smart-Contract-Scanner.git](http
 cd Web3-Smart-Contract-Scanner
 
 
-2. Dependency Resolution
-Install the necessary graphical interface libraries and verify the environment:
-
-Bash
 pip install --upgrade customtkinter
-3. Container Initialization
-Pull the latest security toolbox image to ensure all detection patterns are up to date:
-
-Bash
-docker pull trailofbits/eth-security-toolbox
-4. Application Launch
-Execute the orchestration script to initiate the GUI:
-
-Bash
-python gui.py
-License
-This project is distributed under the MIT License. It is intended for educational and ethical security research purposes only.
-
-Contact and Contributions
-Developed by Md Rahim Rahman. Contributions to improve detection logic or the user interface are welcome through pull requests and issues.

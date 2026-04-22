@@ -285,7 +285,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ```
 
- |_____/   |_|  |_| |_|_|  \_\ |_____/|_| |_|_|  |_|_____(_)
 ```
 
 </div>

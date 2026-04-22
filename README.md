@@ -284,11 +284,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ⭐ **If this tool helped you secure a contract, please consider giving it a star!** ⭐
 
 ```
-   _____ _______  ___  _____     _____ ___  ___  _____   _
-  / ____|__   __|/ _ \|  __ \   / ____/ _ \|  \/  |_   _| |
- | (___    | |  | |_| | |__) | | (___| |_| | \  / | | | | |
-  \___ \   | |  |  _  |  _  /   \___ \  _  | |\/| | | | | |
-  ____) |  | |  | | | | | \ \   ____) | | | | |  | |_| |_|_|
+
  |_____/   |_|  |_| |_|_|  \_\ |_____/|_| |_|_|  |_|_____(_)
 ```
 

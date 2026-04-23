@@ -278,8 +278,10 @@ Web3-Smart-Contract-Scanner/
 │
 ├── 📂 contracts/              # Sample vulnerable contracts for testing
 │   ├── combined_test.sol      # Multi-vulnerability demo contract
+|   ├── test3.sol              # Integer Overflow
 │   ├── test.sol               # Reentrancy demo
-│   └── test2.sol              # Suicidal + reentrancy demo
+│   ├── test2.sol              # Suicidal + reentrancy demo
+|   ├── zero.sol               # Secure Vault ( Zero Error )
 │
 └── 📂 reports/                # Exported PDF audit reports (generated at runtime)
     └── WEB3_AUDIT_REPORT.pdf

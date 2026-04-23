@@ -225,7 +225,7 @@ Once the GUI launches:
 
 ```
 Web3 Smart Contract Scanner - Report
-Total Issues Found: 15
+Total Issues Found: 29
 ──────────────────────────────────────────────────────────────
 [HIGH]          reentrancy-eth       →  combined_test.sol
 [HIGH]          suicidal             →  combined_test.sol

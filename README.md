@@ -213,7 +213,7 @@ Once the GUI launches:
 
 ### 🖥️ Main GUI — Live Bulk Scan Result
 
-> *Scanned 4 Solidity files — 15 total issues detected across High / Medium / Low / Informational categories*
+> *Scanned 4 Solidity files — 29 total issues detected across High / Medium / Low / Informational categories*
 
 ![Web3 Smart Contract Scanner - Main UI](assets/screenshot_ui.png)
 
@@ -269,7 +269,6 @@ Web3-Smart-Contract-Scanner/
 │
 ├── 📄 gui.py                  # Main GUI — customtkinter app + chart + PDF export
 ├── 📄 scanner.py              # Docker orchestration + Slither & Mythril JSON parsers
-├── 📄 requirements.txt        # Python dependencies
 ├── 📄 README.md               # You are here
 ├── 📄 LICENSE                 # MIT License
 │
@@ -283,7 +282,7 @@ Web3-Smart-Contract-Scanner/
 │   └── test2.sol              # Suicidal + reentrancy demo
 │
 └── 📂 reports/                # Exported PDF audit reports (generated at runtime)
-    └── Audit_Report.pdf
+    └── WEB3_AUDIT_REPORT.pdf
 ```
 
 ---
